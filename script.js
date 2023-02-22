@@ -13,7 +13,7 @@ const getLocation = ()=> {
 
 
 const showPosition = (position)=>  {
-    locationContainer.innerHTML = "Latitude: " + position.coords.latitude + 
+    locationContainer.innerHTML ="Your Location: " + "</br>" + "Latitude: " + position.coords.latitude + 
       "<br>Longitude: " + position.coords.longitude;
 }
 
